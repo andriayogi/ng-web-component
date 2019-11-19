@@ -1,0 +1,11 @@
+<div class="ojek-input">
+    <div class="form-input">
+        <fa name="{{ user }}"></fa>
+        <input type="text" placeholder="Username">
+    </div>
+    <div class="form-input">
+        <fa name="{{ key }}"></fa>
+        <input [type]="show ? 'password' : 'text'" placeholder="Password">
+        <fa name="{{ eye }}" id="eye" (click)="changeType()"></fa>
+    </div>
+</div>

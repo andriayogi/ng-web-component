@@ -1,0 +1,27 @@
+.form-input {
+    background: white;
+    padding: 10px;
+    color: #505050;
+    border-radius: 50px;
+    border: 2px solid #505050;
+    margin-top: 10px;
+}
+input {
+    background: white;
+    border: 0px;
+    height: 30px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 7px;
+    font-size: large;
+    color: #505050;
+    outline: none;
+}
+fa {
+    font-size: large;
+}
+
+i#eye {
+    font-size: large;
+    cursor: pointer;
+}
